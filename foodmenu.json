@@ -1,0 +1,43 @@
+{"foodCats": 
+[ 
+{"Appetizers": [
+  {"name": "Hara-Bhara Kebab", "price": "$6.69", "description": "Deep fried spicy snack made with potatoes and spinach"}, 
+  {"name": "Paneer Chilly", "price": "$7.79", "description": "Indian cottage cheese stir-fry in soya sauce with onions, peppers and chillies"},
+  {"name": "Chese Balls", "price": "$6.69", "description": "cubed pieces of real mozzarella cheese dipped in breadscrum with Hot Pepper"},
+  {"name": "Dry Manchurian", "price": "$8.89", "description": "Golden fried vegetable dumplings tossed with a spicy manchurian sauce"}
+]},
+
+{"Curries": [
+  {"name": "Paneer Tikka", "price": "$12.99", "description": "Homemade cheese chunks marinated in Indian spices and slow-cooked in a tandoor"}, 
+  {"name": "Paneer Tufani", "price": "$13.49", "description": "Spicy curry made of cottage cheese mixed with veggies"},
+  {"name": "Malai Kofta", "price": "$15.49", "description": "Mixed vegetable croquettes. Cooked in a creamy sauce w/ cashews and raisins"},
+  {"name": "Cheese Butter Masala", "price": "$14.39", "description": "Cheese grilled in tandoor, then cooked in a tomato based gravy with a hint of butter and cream"},
+  {"name": "Mix vegetables", "price": "$13.99", "description": "Diced carrot and potato, green peas, beans, and capsicum, tossed in butter and cooked in a tomato and cashew nut gravy"}
+]},
+
+{"Breads": [
+  {"name": "Naan", "price": "$2.39", "description": "Made with plain floor and cooked in tandoor"}, 
+  {"name": "Aloo Kulcha", "price": "$3.19", "description": "Made by stuffing potato and cooked in tandoor"},
+  {"name": "Missi Roti", "price": "$2.39", "description": "Indian bread made with whole-wheat flour and butters"},
+  {"name": "Garlic Naan", "price": "$2.29", "description": "Delicious naan bread topped with chopped garlic"},
+  {"name": "Chese Naan", "price": "$4.59", "description": "Naan stuffed with cottage cheese and mild spices"}
+]},
+
+{"Rice": [
+  {"name": "Haydrabadi Biryani", "price": "$10.99", "description": "Speciallity of South India, made with rice and veggies"}, 
+  {"name": "Veg Biryani", "price": "$9.99", "description": "stir fried peas, green beans, carrots, cauliflower, broccoli, basmati rice w/herbs and spices"},
+  {"name": "Veg Pulav", "price": "$8.99", "description": "Rice fried with onions, potatoes and carrots"},
+  {"name": "Masala Khichdi", "price": "$8.69", "description": "Popular Gujarati rice dish made with indian spices"},
+  {"name": "Chese Pulav", "price": "$9.39", "description": "Rice mixed with vegetables and cheese"}
+]},
+
+{"Desserts": [
+  {"name": "Gulab jamun", "price": "$6.79", "description": "Fried golden brown balls, served in sugar syrup."}, 
+  {"name": "Rasgulla", "price": "$7.29", "description": "Steamed balls made with milk and soaked in sugar syrup."},
+  {"name": "Shrikhand", "price": "$8.29", "description": "Made with hung curd "},
+  {"name": "Fruit Salad", "price": "$6.39", "description": "Creamy custord milk made with various fruits"},
+  {"name": "Kheer", "price": "$5.99", "description": "Creamy rice pudding garnished with almonds and pistachios."}
+]}
+
+]
+}

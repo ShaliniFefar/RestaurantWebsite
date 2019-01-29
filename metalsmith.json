@@ -1,0 +1,18 @@
+{
+    "source": "src",
+    "destination": "build",
+    "plugins": {
+      "metalsmith-layouts": true,
+      "metalsmith-markdown": {
+      "pedantic": false,
+      "gfm": true,
+      "tables": true,
+      "breaks": false,
+      "sanitize": false,
+      "smartLists": true,
+      "smartypants": false,
+      "xhtml": false
+    }
+      
+    }
+  }
