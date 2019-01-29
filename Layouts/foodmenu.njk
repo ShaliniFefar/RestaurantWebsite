@@ -1,0 +1,102 @@
+{% extends "base.njk" %}
+{% block rows %}
+    <div class="container">
+    <div class="panel-group">
+    <div class="panel panel-primary">
+      <div class="panel-heading">Appetizers</div>
+      <br>
+        <div class="panel-body">
+    <ul class="list-unstyled">
+    <img src="kabab.jpg"
+        width="300"
+        height="200"
+        align="right">
+   {% for item in menu.foodCats %}
+   {% for cat in item.Appetizers %}
+    <li>{{cat.name}} ............... {{cat.price}}</li>
+    <li>{{cat.description}}
+   {% endfor %}
+    {% endfor %}
+    </ul>
+    </div>
+    </div>
+
+<div class="panel panel-default">
+      <div class="panel-heading">Curries</div>
+      <br>
+      <div class="panel-body">
+    <ul class="list-unstyled">
+    <img src="curry.jpeg"
+        width="300"
+        height="200"
+        align="right">
+    {% for item in menu.foodCats %}
+    {% for cat in item.Curries %}
+    <li>{{cat.name}} .................{{cat.price}}</li>
+    <li>{{cat.description}}
+    {% endfor %}
+    {% endfor %} 
+    </ul>
+    </div>
+    </div>
+   
+    <div class="panel panel-default">
+      <div class="panel-heading">Breads</div>
+      <br>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+        <img src="naan.jpg"
+        width="300"
+        height="200"
+        align="right">
+    {% for item in menu.foodCats %}
+    {% for cat in item.Breads %}
+    <li>{{cat.name}} ............. {{cat.price}}</li>
+    <li>{{cat.description}}
+    {% endfor %}
+    {% endfor %} 
+    </ul>
+    </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Rice</div>
+      <br>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+        <img src="biryani.jpg"
+        width="300"
+        height="200"
+        align="right">
+    {% for item in menu.foodCats %}
+    {% for cat in item.Rice %}
+    <li>{{cat.name}} ................... {{cat.price}}</li>
+    <li>{{cat.description}}
+    {% endfor %}
+    {% endfor %} 
+    </ul>
+    </div>
+    </div>
+
+    <div class="panel panel-default">
+      <div class="panel-heading">Desserts</div>
+      <br>
+      <div class="panel-body">
+        <ul class="list-unstyled">
+        <img src="desert.jpg"
+        width="300"
+        height="200"
+        align="right">
+    {% for item in menu.foodCats %}
+    {% for cat in item.Desserts %}
+   <li>{{cat.name}} .................... {{cat.price}}</li>
+   <li>{{cat.description}}
+    {% endfor %}
+    {% endfor %} 
+    </ul>
+    </div>
+    </div>
+    </div>
+
+{% endblock %}
+   

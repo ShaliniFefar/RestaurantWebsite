@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bootstrap.css">
+  <script src="jquery-3.3.1.min.js"></script>
+  <script src="bootstrap.bundle.js"></script>
+  <title>{{title}}</title>
+  <style>
+  body
+    {
+      background-color: white;
+      font-family: "comic Sans MS", cursive, serif;
+      font-weight: bold;
+    }
+  .navbar {
+        font-family: "comic Sans MS", cursive, sans-serif;
+        color: black;
+        text-align: left;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 30px;
+        overflow: hidden;
+        background-color: #b2ef8c;
+    }
+    a 
+    {
+      float: left;
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .jumbotron
+    {
+      background-color: #b2ef8c;
+    }
+
+  .navbar a:hover {
+      
+      color: black;
+    }
+
+  .navbar a.active {
+      background-color: #ccffff;
+      color: black;
+}
+img
+   {
+    border-radius: 12px;
+    border-color: black;
+    border-style: solid;
+   }
+  </style>
+
+</head>
+<body>
+  <main>
+    <header>
+     <div class="jumbotron">
+    <img src="india.jpeg" class="img-thumbnail" alt="Cinque Terre" width="360" height="230" align="right">
+    <h1>The Taste Of India</h1> 
+    <br> </br>  
+    <h3 align="left">Location: Fremont, California</h3>
+    <h3 align="left">Open Hours: 6:00 PM - 12:00 AM</h3>
+  </div>    
+
+
+<nav class="navbar">
+  <div class="container-fluid">
+    {% for item in links %}
+   <ul class="nav navbar-nav">
+     <li class="nav-item">
+       <a class="nav-link" href="{{item.url}}">{{item.title}}</a>
+     </li>
+   </ul>
+        {% endfor %}
+ </div>
+  </nav>
+  <br> </br>
+  {% if layout %}
+  {% else %}
+    {{ contents | safe }}
+  {% endif %}
+
+</div>
+  </div>
+  </header>
+  <div>
+  <img src="privateevents.png" width="500" height="400" align="center">
+  <br></br>
+  <h3> {{description}}</h3>
+  </div>
+ </main>
+</body>
+</html>
